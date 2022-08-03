@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from './Header';
 
 const Layout = ({ children, page }) => {
   return (
@@ -7,8 +8,8 @@ const Layout = ({ children, page }) => {
         <title>Guitar Store - {page}</title>
         <meta name='description' content='Guitar Web Store' />
       </Head>
+      <Header />
 
-      <h1>Layout</h1>
       {children}
     </div>
   );
