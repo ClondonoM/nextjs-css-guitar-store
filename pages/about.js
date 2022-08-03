@@ -1,11 +1,10 @@
-import Link from 'next/link';
+import Layout from '../components/Layout';
 
 const AboutUs = () => {
   return (
-    <div>
-      <h1>About us</h1>
-      <Link href='/'>Home</Link>
-    </div>
+    <Layout page='About'>
+      <h1>About</h1>
+    </Layout>
   );
 };
 
